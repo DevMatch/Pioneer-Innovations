@@ -1,3 +1,9 @@
+  .navbar {
+    background-color:#1F1F2A;
+    width: 100%;
+    height: 80px;
+  }
+  
   .about-title {
     padding-top: 20px;
     font-size: 40px;
@@ -12,56 +18,118 @@
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    margin-left: 200px;
-    margin-right: 200px;
-    font-weight: 500;
+    margin-left: 300px;
+    margin-right: 300px;
+    font-weight: 550;
   }
 
   .main-photo {
     filter: brightness(50%);
-    width: 300px; 
-    height: 300px;
-    padding-top: 50px;
+    width: 500px; 
+    height: 400px;
+    padding-top: 70px;
+    margin-left: 20px;
   }
 
   .image-flex {
     display: flex;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
   }
 
   .container-about {
     padding-top: 50px;
     padding-bottom: 50px;
-    background-color: #f5f5f5;
+    background-color: #F6F6F6;
   }
 
   .image-content{ 
     margin-left: 100px; 
-    margin-top: 200px; 
+    margin-top: 250px; 
     margin-right: 100px;
     font-size: 50px;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
-}
+  }
 
-.image-flex-text {
-    display: flex;
-}
+  .description {
+    margin-left: 100px; 
+    margin-right: 100px;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 550;
+    color: black
+  }
 
-.openings {
+  .openings {
     padding-top: 20px;
     font-size: 40px;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     text-align: center;
     padding-bottom: 20px;
-}
+  }
 
-.box {
+  .box {
     width: 100%px;
-    height: 100px;
-    border: 1px solid black;
+    min-height: 350px;
+    border: 2px solid lavender;
     padding: 10px;
     margin: 30px;
     border-radius: 15px;
+    padding-bottom: 40px;
+  }
+
+  .job-title {
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin-left: 100px;
+    padding-top: 10px;
+    color: #34347B;
+  }
+
+  .location {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600px;
+    margin-left: 100px;
+    color: #34347B;
+  }
+
+  .job-subheading {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin-left: 100px;
+    padding-top: 10px;
+  }
+
+  .job-description {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 550px;
+    margin-left: 100px;
+  }
+
+  .footer {
+    background-color:#1F1F2A;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .footer-content {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 550px;
+    margin-left: 100px;
+    color: white;
+  }
+
+  .footer-title {
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight:bold;
+    margin-left: 100px;
+    color: white;
   }
