@@ -24,9 +24,7 @@
   }
 
   .main-photo {
-    filter: brightness(50%);
-    width: 500px; 
-    height: 400px;
+    max-width: 500px; 
     padding-top: 70px;
     margin-left: 20px;
   }
